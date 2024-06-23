@@ -17,6 +17,6 @@ Client.on("messageCreate", (Message) => {
 
 
     Message.reply({
-        content: `Olá, ${Message.author.displayName} meu pai é o @_thurow, também conhecido como pai da indanidade!`
+        content: `Olá, ${Message.author.displayName} meu pai é o @_thurow, também conhecido como pai da insanidade!`
     })
 })
