@@ -1,7 +1,6 @@
 {
   "name": "bot-discord",
   "version": "1.0.0",
-  "description": "",
   "main": "dist/index.js",
   "scripts": {
     "dev": "ts-node src/index.ts",
@@ -12,10 +11,23 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/colors": "^1.2.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.2"
   },
   "dependencies": {
-    "dotenv": "^16.4.5"
-  }
+    "colors": "^1.4.0",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "ts-colors": "^0.1.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jf-lacerda/bot-discord.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jf-lacerda/bot-discord/issues"
+  },
+  "homepage": "https://github.com/jf-lacerda/bot-discord#readme",
+  "description": ""
 }
